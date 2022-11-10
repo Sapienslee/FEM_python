@@ -1,11 +1,6 @@
-# FEM_python
-
-# Delete Row: np.delete(matrix, row(wanna delete), axis = 0(row))
-# Delete Column : np.delete(matrix, column(wana delete), axis = 1(column))
-
 import numpy as np
 
-# ne = number of element
+### ne = number of element
 
 df = 2 # degree of freedom
 numel = 2 # number of element

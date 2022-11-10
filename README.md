@@ -11,12 +11,12 @@ E = 30*(10**6)
 L = 12*10
 I = 50
 
-# Moment and Concetrated Load
+### Moment and Concetrated Load
 
 F = np.array([[0, 0, 10000, 0, 0, 0, 10000, 0, 0, 0]])
-# F = np.zeros((1,df*TotNe))
-
 v = np.zeros((df*TotNe, 1))
+
+#### F = np.zeros((1,df*TotNe))
 
 ## 1. Local Stiffness Matrix of Beam(Concentrated Load)
 
